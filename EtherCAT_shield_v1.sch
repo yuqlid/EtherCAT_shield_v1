@@ -1,0 +1,108 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:mylib
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RJ45-TRANSFO J?
+U 1 1 58D8E65C
+P 10350 2300
+F 0 "J?" H 10450 2900 50  0000 L CNN
+F 1 "RJ45-TRANSFO" H 10300 2900 50  0000 R CNN
+F 2 "" H 10350 2300 50  0000 C CNN
+F 3 "" H 10350 2300 50  0000 C CNN
+	1    10350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RJ45-TRANSFO J?
+U 1 1 58D8E6A1
+P 10350 3750
+F 0 "J?" H 10450 4350 50  0000 L CNN
+F 1 "RJ45-TRANSFO" H 10300 4350 50  0000 R CNN
+F 2 "" H 10350 3750 50  0000 C CNN
+F 3 "" H 10350 3750 50  0000 C CNN
+	1    10350 3750
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 5150 2250 3100 1900
+U 58D8F243
+F0 "LAN9252" 60
+F1 "LAN9252.sch" 60
+$EndSheet
+$Comp
+L LAN9252 U?
+U 2 1 58D8F2C3
+P 2850 2100
+F 0 "U?" H 3050 2250 60  0000 C CNN
+F 1 "LAN9252" H 3000 2150 60  0000 C CNN
+F 2 "" H 1600 1050 60  0001 C CNN
+F 3 "" H 1600 1050 60  0001 C CNN
+	2    2850 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58D8F78B
+P 10950 2700
+F 0 "#PWR?" H 10950 2450 50  0001 C CNN
+F 1 "GND" H 10950 2550 50  0000 C CNN
+F 2 "" H 10950 2700 50  0000 C CNN
+F 3 "" H 10950 2700 50  0000 C CNN
+	1    10950 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58D8F7A6
+P 10950 4150
+F 0 "#PWR?" H 10950 3900 50  0001 C CNN
+F 1 "GND" H 10950 4000 50  0000 C CNN
+F 2 "" H 10950 4150 50  0000 C CNN
+F 3 "" H 10950 4150 50  0000 C CNN
+	1    10950 4150
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2750 2500
+$EndSCHEMATC
