@@ -1694,4 +1694,8 @@ Text GLabel 4650 2750 0    60   Input ~ 0
 GPIO14
 Text GLabel 4650 2900 0    60   Input ~ 0
 GPIO15
+NoConn ~ 2250 6900
+NoConn ~ 4650 7400
+NoConn ~ 4650 7500
+NoConn ~ 4650 6100
 $EndSCHEMATC
