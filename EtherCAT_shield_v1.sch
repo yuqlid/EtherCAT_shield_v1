@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:mylib
+LIBS:analog_devices
 LIBS:EtherCAT_shield_v1-cache
 EELAYER 25 0
 EELAYER END
@@ -71,7 +72,7 @@ L R R3
 U 1 1 58D985AE
 P 7750 2950
 F 0 "R3" V 7830 2950 50  0000 C CNN
-F 1 "0R" V 7750 2950 50  0000 C CNN
+F 1 "0" V 7750 2950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7680 2950 50  0001 C CNN
 F 3 "" H 7750 2950 50  0000 C CNN
 	1    7750 2950
@@ -813,8 +814,6 @@ Text GLabel 3650 5100 2    60   Input ~ 0
 PB0
 Text GLabel 1700 5700 0    60   Input ~ 0
 PC10
-Text GLabel 3550 6050 2    60   Input ~ 0
-PA6
 Text GLabel 3450 6400 0    60   Input ~ 0
 PA7
 $Comp
@@ -1844,4 +1843,50 @@ F 3 "" H 1850 1000 50  0000 C CNN
 	1    1850 1000
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1750 5800
+NoConn ~ 1750 5900
+NoConn ~ 1750 6000
+NoConn ~ 1750 6300
+NoConn ~ 1750 6400
+NoConn ~ 1750 6500
+NoConn ~ 1750 7100
+NoConn ~ 1750 7200
+NoConn ~ 1750 7300
+NoConn ~ 1750 7400
+NoConn ~ 1750 7500
+NoConn ~ 2250 7500
+NoConn ~ 2250 7400
+NoConn ~ 2250 7200
+NoConn ~ 2250 7100
+NoConn ~ 2250 7000
+NoConn ~ 2250 6800
+NoConn ~ 2250 5900
+NoConn ~ 2250 5800
+NoConn ~ 2250 5700
+NoConn ~ 4150 5800
+NoConn ~ 4150 5900
+NoConn ~ 4150 6000
+NoConn ~ 4150 6200
+NoConn ~ 4150 6600
+NoConn ~ 4150 6700
+NoConn ~ 4150 6800
+NoConn ~ 4150 7000
+NoConn ~ 4150 7100
+NoConn ~ 4150 7200
+NoConn ~ 4150 7300
+NoConn ~ 4150 7400
+NoConn ~ 4150 7500
+NoConn ~ 4650 7300
+NoConn ~ 4650 7100
+NoConn ~ 4650 7000
+NoConn ~ 4650 6900
+NoConn ~ 4650 6400
+NoConn ~ 4650 6300
+NoConn ~ 4650 6200
+NoConn ~ 4650 6000
+NoConn ~ 4650 5900
+NoConn ~ 4650 5800
+NoConn ~ 4650 5700
+Text GLabel 3550 6050 2    60   Input ~ 0
+PA6
 $EndSCHEMATC
