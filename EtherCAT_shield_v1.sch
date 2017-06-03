@@ -30,7 +30,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:mylib
 LIBS:analog_devices
-LIBS:EtherCAT_shield_v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -473,8 +472,6 @@ Text GLabel 7500 3400 1    60   Input ~ 0
 RX1_P
 Text GLabel 7650 3600 1    60   Input ~ 0
 RX1_N
-Text GLabel 7800 4750 3    60   Input ~ 0
-TX2_P
 Text GLabel 7950 4950 3    60   Input ~ 0
 TX2_N
 Text GLabel 7500 5050 1    60   Input ~ 0
@@ -1889,4 +1886,6 @@ NoConn ~ 4650 5800
 NoConn ~ 4650 5700
 Text GLabel 3550 6050 2    60   Input ~ 0
 PA6
+Text GLabel 7800 4750 3    60   Input ~ 0
+TX2_P
 $EndSCHEMATC

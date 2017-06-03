@@ -30,7 +30,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:mylib
 LIBS:analog_devices
-LIBS:EtherCAT_shield_v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
